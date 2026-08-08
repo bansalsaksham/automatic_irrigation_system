@@ -18,7 +18,6 @@ This project has undergone several architectural iterations, moving from a basic
 ### Phase 3: Rootry v2 (Current Architecture - 2024 to Present)
 The current iteration focuses on productization, robustness, and real-world deployment constraints. Designed for areas with limited grid power and no smartphone access, keeping the unit cost under ₹4,000.
 
-* **Verified Impact:** Field-tested across a 4-acre site, achieving a **30% reduction** in water usage (250 L/m² vs control of 360 L/m²).
 * **Hardware Stack:** * Custom PCB designed in **KiCad**.
   * **MCU:** ESP32-S3 (Dual-core 240MHz) replacing the legacy Arduino architecture.
   * **Connectivity:** Hybrid Dual GSM (SIM800L via UART AT commands) + WiFi interface.
